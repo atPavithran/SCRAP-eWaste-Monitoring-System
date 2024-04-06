@@ -1,0 +1,79 @@
+/* CurrentTasks.css */
+
+.current-tasks-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.tasks-content {
+  width: 80%;
+  max-width: 800px;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Style for MapComponent (replace with your actual MapComponent styles) */
+.map-component {
+  width: 100%;
+  height: 300px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.arrival-info {
+  background-color: #f8f8f8;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Style for the sample task details */
+.current-tasks {
+  margin-top: 20px;
+}
+
+.task-details {
+  background-color: #f8f8f8;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task-details h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.task-details p {
+  margin-bottom: 5px;
+}
+
+.task-details strong {
+  font-weight: bold;
+}

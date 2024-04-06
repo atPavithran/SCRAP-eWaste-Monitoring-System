@@ -1,0 +1,45 @@
+/* ProgressGraph.css */
+
+.graph-container {
+  text-align: center;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #2d2828df;
+  width: 35%;
+  float: right;
+  color: white;
+  margin-right: 15px;
+  height: auto;
+  padding: 15px;
+}
+
+.graph-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.responsive-container {
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+/* Set axis font color and size */
+.recharts-cartesian-axis-tick-value {
+  fill: white;
+  font-size: 12px; /* Adjust font size */
+}
+
+/* Increase line width */
+.recharts-line-dash {
+  stroke-width: 4;
+}
+
+/* Axis label styles */
+.recharts-x-axis,
+.recharts-y-axis {
+  font-size: 30px;
+  font-weight: bold;
+  fill: white;
+}

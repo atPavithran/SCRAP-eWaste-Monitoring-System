@@ -1,0 +1,74 @@
+/* DateBox.css */
+.date-box {
+  width: 4em;
+  height: 4em;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 5px;
+  position: relative;
+  transition: background-color 0.3s; /* Added transition for a smooth color change */
+}
+
+.date {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.events-indicator {
+  position: absolute;
+  top: -7px; /* Adjust as needed */
+  right: -5px; /* Adjust as needed */
+  background-color: #ff4d4d; /* Red background color for the circle */
+  color: #fff;
+  border-radius: 50%;
+  padding: 4px 6px; /* Increase the padding to make the circle larger */
+  font-size: 1em; /* Adjust as needed */
+  transition: background-color 0.3s; /* Added transition for a smooth color change */
+}
+
+.date-box.event {
+  background: linear-gradient(to top, #311212, #d55130); /* Change to your desired linear gradient */
+}
+
+/* EventTooltip.css */
+.event-tooltip {
+  position: absolute;
+  top: auto;
+  bottom: calc(100% + 10px); /* Adjust the spacing as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 5px;
+  z-index: 1000; /* Higher z-index to keep it on top */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 500px;
+  min-height: 200px;
+}
+
+.event-tooltip-arrow {
+  position: absolute;
+  top: 100%; /* Align with the bottom edge of the tooltip */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #fff; /* Adjusted to border-bottom */
+}
+
+.event-tooltip-item {
+  margin-bottom: 5px;
+}
+
+/* Add this rule for dynamic adjustment of bottom property */
+.date-box.event:hover .event-tooltip {
+  top: auto; /* Reset the bottom value to default */
+}

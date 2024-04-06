@@ -1,0 +1,26 @@
+
+.service-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.service-item-container img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.service-item-container .service-title {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.service-item-container .service-description {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.service-item-container .learn-more-link {
+  margin-top: 20px;
+}

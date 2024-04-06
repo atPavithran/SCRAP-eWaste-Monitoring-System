@@ -1,0 +1,35 @@
+.cont {
+    width: 100%;
+    height: 110vh;
+    background-position: 0%;
+    background-size: cover;
+
+}
+/* styles/app.css */
+
+.celebration-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: 999;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .celebration-overlay h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .celebration-overlay p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  

@@ -1,0 +1,138 @@
+/* HeaderAfterLogin.css */
+#after-header {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .after-container {
+    padding: 10px 10%;
+  }
+  
+  #after-header nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .afterlogin-logo {
+    margin-top: 10px;
+    width: 100px;
+    border-radius: 5px;
+    height: 100px;
+  }
+  
+  #after-header nav ul {
+    list-style: none;
+    margin-left: 400px;
+    padding: 0;
+    text-align: right;
+  }
+  
+  #after-header nav ul li {
+    display: inline-block;
+    margin: 10px 15px;
+  }
+  
+  #after-header nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    font-weight: bold;
+  }
+  
+  #after-header nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #1092de;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+  }
+  
+  #after-header nav ul li a:hover::after {
+    width: 100%;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    #after-header nav ul {
+      background: #09a0f7;
+      position: fixed;
+      top: 0;
+      right: -200px;
+      width: 100%;
+      height: 100vh;
+      padding-top: 50px;
+      z-index: 2;
+      transition: right 0.5s;
+    }
+  
+    #after-header nav ul li {
+      display: block;
+      margin: 25px;
+    }
+  
+    #after-header nav ul .fa-solid {
+      position: absolute;
+      top: 25px;
+      left: 25px;
+      cursor: pointer;
+    }
+  }
+  
+  .profile-section {
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-picture-container {
+    margin-top: 30px; /* Adjust the margin-top as needed */
+  }
+  
+  .profile-picture {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .logout-dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #33333300;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logout-dropdown button {
+    background-color: #55555500;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: large;
+    font-weight: bold;
+  }
+  
+  .logout-dropdown button:hover {
+    background-color: #777777a5;
+  }
+  

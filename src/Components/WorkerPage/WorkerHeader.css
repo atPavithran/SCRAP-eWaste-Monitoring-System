@@ -1,0 +1,35 @@
+.dashboard {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar-container {
+  width: 300px;
+  background-color: #333; /* Adjust the background color as needed */
+  padding: 20px;
+  color: white;
+}
+
+.content-container {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Header styles */
+.header {
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; /* Adjust the color as needed */
+}
+
+/* New tasks container styles */
+.new-tasks-container {
+  background-color: #f0f0f0; /* Placeholder background color */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Placeholder box shadow */
+}

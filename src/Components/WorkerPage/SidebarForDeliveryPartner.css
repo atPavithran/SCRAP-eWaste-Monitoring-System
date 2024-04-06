@@ -1,0 +1,29 @@
+/* SidebarForDeliveryPartner.css */
+
+.sidebar {
+  position: fixed;
+  height: 100vh;
+  width: 200px;
+  background-color: #333; /* Adjust background color for the delivery partner sidebar */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.sidebar-link {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white; /* Adjust text color for the delivery partner sidebar */
+  font-size: 16px;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.sidebar-link:hover {
+  background-color: #555; /* Adjust hover background color for the delivery partner sidebar */
+}
+
+.active {
+  background-color: #555; /* Adjust background color for the active link in the delivery partner sidebar */
+  color: white; /* Adjust text color for the active link in the delivery partner sidebar */
+}

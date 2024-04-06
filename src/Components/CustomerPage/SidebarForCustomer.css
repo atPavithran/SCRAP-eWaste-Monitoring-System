@@ -1,0 +1,28 @@
+.sidebar {
+    position: fixed; /* Keep sidebar fixed */
+    height: 100vh; /* Full height of the viewport */
+    width: 200px; /* Adjust width based on your needs */
+    background-color: #f5f5f5; /* Light gray background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle drop shadow */
+    padding: 20px;
+  }
+  
+  .sidebar-link {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .sidebar-link:hover {
+    background-color: #eee;
+  }
+  
+  .active {
+    background-color: #ddd; /* Highlight active link */
+    color: #333; /* Adjust active link text color */
+  }
+  

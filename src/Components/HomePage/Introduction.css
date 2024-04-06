@@ -1,0 +1,32 @@
+/* src/components/Introduction.css */
+#intro{
+    margin-left: 170px;
+    margin-top: 250px;
+  .intro-text{
+      font-size: 30px;
+      background-color: rgba(0, 0, 0, 0.825);
+      color: rgb(255, 255, 255);
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      width: 90%;
+  }
+
+  .intro-text h1{
+      font-size: 60px;
+      padding-left: 20px;
+      text-align: left;
+      padding-bottom: 15px;
+  }
+
+  .intro-text p{
+      font-size: 35px;
+      padding-top: 15px;
+      padding-left: 20px;
+      text-align: left;
+      color: white;
+  }
+
+  .intro-text h1 span{
+      color: #1092de;
+  }
+}

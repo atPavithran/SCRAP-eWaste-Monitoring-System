@@ -1,0 +1,100 @@
+.calendar-container {
+  width: 40%;
+  height: 70%;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  margin: 20px;
+  color: white;
+  text-shadow: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: radial-gradient(circle, #211212, #5c5656df);
+  margin-left: 260px;
+}
+
+.empty-cell {
+  height: 5em;
+}
+
+.calendar {
+  align-items: center;
+}
+
+.month-switch {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  justify-content: center;
+}
+
+.month-dropdown,
+.year-dropdown {
+  margin: 0 4px;
+  align-items: center;
+  text-align: center;
+}
+
+.month-dropdown select,
+.year-dropdown select {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+}
+
+.month-dropdown select:hover,
+.year-dropdown select:hover {
+  background-color: #f0f0f0;
+}
+
+.arrow {
+  font-size: 2.5em;
+  margin-right: 4px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.days-of-week {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 15px;
+  justify-content: space-evenly;
+}
+
+.day-of-week {
+  font-weight: bold;
+  text-align: center;
+  flex: 1;
+}
+
+.dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+}
+
+.calendar-cell {
+  padding: 3px;
+  cursor: pointer;
+  position: relative;
+  width: calc(100% - 16px);
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .calendar-container {
+    width: 80%;
+  }
+
+  .calendar-cell {
+    width: calc(100% - 16px);
+  }
+}

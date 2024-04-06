@@ -1,0 +1,107 @@
+/* Portfolio.css */
+
+#portfolio {
+    padding: 50px 0;
+}
+
+.portfolio-container {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.portfolio-container p {
+    font-size: 25px;
+    text-align: center; /* Center-align the text */
+}
+
+.sub-title {
+    color: black;
+    text-align: center; /* Center-align the text */
+}
+
+.work-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 0.3fr));
+    grid-gap: 20px;
+    margin-top: 50px;
+    padding-left: 160px;
+}
+
+.work {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    height: 75vh;
+    width: 300px;
+}
+
+.work img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+    height: 80vh;
+}
+
+.layer {
+    width: 100%;
+    height: 0;
+    background: linear-gradient(#ffffff, rgb(216, 107, 129));
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+
+.layer h3 {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.layer a {
+    margin-top: 20px;
+    color: #1092de;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 40px;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.work:hover img {
+    transform: scale(1.1);
+}
+
+.work:hover .layer {
+    height: 100%;
+}
+
+.btn {
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #1092de;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: #1092de;
+    transform: scale(1.1);
+}

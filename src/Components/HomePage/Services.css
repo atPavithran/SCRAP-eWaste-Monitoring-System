@@ -1,0 +1,76 @@
+#services {
+  padding: 30px 0;
+  background: #557a95;
+  margin-top: 160px;
+  padding-bottom: 70px;
+}
+
+.services-container {
+  text-align: center;
+}
+
+#services .services-list {
+  display: grid;
+  grid-template-columns: repeat(3, 0.28fr);
+  justify-content: center;
+  gap: 25px;
+  margin-left: 30px;
+}
+
+#services .services-list > div {
+  height: 400px;
+  width: 350px;
+}
+
+#services .services-list div {
+  background: #231f1f;
+  padding: 20px;
+  font-size: 13px;
+  font-weight: 300;
+  border-radius: 10px;
+  transition: background 0.5s, transform 0.5s;
+}
+
+#services .services-list img {
+  width: 200px;
+  height: 200px;
+}
+
+.sub-title {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#services .services-list h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+#services .services-list h3 {
+  font-size: 20px;
+  width: 100%;
+  font-weight: 300;
+  color: #fff;
+  margin-left: 0px;
+}
+
+#services .services-list a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  display: inline-block;
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#services .services-list a:hover {
+  background: #5d4d9e;
+}
+
+#services .services-list div:hover {
+  background: #0ec3ae;
+  transform: translateY(-10px);
+}

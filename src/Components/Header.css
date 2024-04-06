@@ -1,0 +1,175 @@
+/* Header.css */
+
+/* Styles for Header component */
+#header {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+#header .container {
+  padding: 10px 10%;
+}
+
+#header nav {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 80px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#header .logo {
+  width: 90px;
+  border-radius: 5px;
+  margin-top: 25px;
+  height: 90px;
+  margin-left: -80px;
+}
+
+#header nav ul {
+  list-style: none;
+  margin-left: 365px;
+  padding: 0;
+  text-align: right;
+}
+
+#header nav ul li {
+  display: inline-block;
+  margin: 10px 15px;
+}
+
+#header nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
+  font-weight: bold;
+}
+
+#header nav ul li a::after {
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #1092de;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+#header nav ul li a:hover::after {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  #header nav ul {
+    background: #09a0f7;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.5s;
+  }
+
+  #header nav ul li {
+    display: block;
+    margin: 25px;
+  }
+
+  #header nav ul .fa-solid {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
+}
+
+/* Styles for LoginHeader component */
+#login-header {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+#login-header .login-header-container {
+  padding: 10px 10%;
+}
+
+#login-header nav {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#login-header .logo {
+  width: 90px;
+  border-radius: 2px;
+  margin-top: 25px;
+  height: 90px;
+}
+
+#login-header nav ul {
+  list-style: none;
+  margin-left: 750px;
+  padding: 0;
+  text-align: right;
+}
+
+#login-header nav ul li {
+  display: inline-block;
+  margin: 10px 15px;
+}
+
+#login-header nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 22px;
+  position: relative;
+  font-weight: bold;
+}
+
+#login-header nav ul li a::after {
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #1092de;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+#login-header nav ul li a:hover::after {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  #login-header nav ul {
+    background: #09a0f7;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.5s;
+  }
+
+  #login-header nav ul li {
+    display: block;
+    margin: 25px;
+  }
+
+  #login-header nav ul .fa-solid {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
+}

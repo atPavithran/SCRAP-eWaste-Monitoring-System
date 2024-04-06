@@ -1,0 +1,116 @@
+/* WorkerDashboard.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f2f2f2;
+}
+
+.dashboard {
+  height: 100vh;
+}
+
+.sidebar-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.content-container {
+  padding: 20px;
+}
+
+.header {
+  background-color: transparent;
+  color: #333;
+  padding: 10px;
+  text-align: left;
+  font-size: 1em;
+}
+
+.new-tasks-container {
+  margin-left: 200px;
+  width: calc(100% - 200px); /* Adjusted width calculation */
+}
+
+.newly-assigned-task {
+  margin-bottom: 1px;
+  padding: 20px;
+  margin-left: 210px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+select {
+  padding: 5px;
+}
+
+.new-tasks-content {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.line-graph-container {
+  margin-top: -300px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding:20px;
+}
+
+.dropdown-container {
+  position: relative;
+}
+
+.dropdown-trigger {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.dropdown-trigger.active {
+  background-color: #45a049;
+}
+
+.dropdown-options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.dropdown-option {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dropdown-option:hover {
+  background-color: #f1f1f1;
+}
+
+.selected-option-content {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}

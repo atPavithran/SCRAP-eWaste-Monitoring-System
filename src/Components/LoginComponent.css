@@ -1,0 +1,71 @@
+/* LoginComponent.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.login-h3{
+  margin-left: 195px;
+  color: #555;
+}
+
+.login-container {
+  width: 400px;
+  margin: 150px auto;
+  margin-top: 30px;
+  background-color: #ffffff98;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding-right: 45px;
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-left: 10px;
+}
+
+.login-form {
+  margin-top: 20px;
+}
+
+.login-form input,
+.login-form select {
+  width: 100%; /* Adjusted width */
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin: 10px;
+  font-size: medium;
+}
+
+.login-form select {
+  margin-top: 13px;
+  font-size: medium; /* Equal spacing */
+  color: #333333ab;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin-top: 15px;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  font-size: large;
+  margin-left: 10px;
+}
+
+.login-form button:hover {
+  background-color: #555;
+}
+
+.googleButton{
+  margin-top: 20px;
+}

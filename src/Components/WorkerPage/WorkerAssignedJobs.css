@@ -1,0 +1,12 @@
+.assigned-jobs {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .assigned-jobs h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
