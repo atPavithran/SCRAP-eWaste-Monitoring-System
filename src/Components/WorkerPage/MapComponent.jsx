@@ -14,7 +14,7 @@ const MapboxDirectionsComponent = () => {
   };
 
   useEffect(() => {
-    mapboxgl.accessToken = 'pk.eyJ1IjoidGVyZmVmZWQiLCJhIjoiY2x0MTV3MnZ3MGgxZDJrcnppcXlrYXB4ciJ9.hHCi0jEivwDWrNbOoumNjA';
+    mapboxgl.accessToken = '*Your map box API access token*';
 
     navigator.geolocation.getCurrentPosition(successLocation, errorLocation, {
       enableHighAccuracy: true,
